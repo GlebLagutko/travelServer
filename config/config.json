@@ -1,0 +1,29 @@
+  {
+  "development": {
+    "username": "postgres",
+    "password": "changeme",
+    "database": "nodes",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "postgres",
+    "password": "changeme",
+    "database": "nodes",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "mfjngolxtgmaaj",
+    "password": "ebb47d825700995a74fab44c9d0809fb1b1858502c070fe9809e1e6027b87a4c",
+    "database": "dfc4aq92hqn8gg",
+    "host": "ec2-35-171-57-132.compute-1.amazonaws.com",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    }
+  }
+}
